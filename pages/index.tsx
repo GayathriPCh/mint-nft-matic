@@ -12,7 +12,7 @@ import contractInterface from '../contract-abi.json';
 import FlipCard, { BackCard, FrontCard } from '../components/FlipCard';
 
 const contractConfig = {
-  addressOrName: '0x86fbbb1254c39602a7b067d5ae7e5c2bdfd61a30',
+  addressOrName: '0x008BC8a0De8c448673fC2E424be751b756Dfcd11',
   contractInterface: contractInterface,
 };
 
@@ -100,14 +100,14 @@ const Home: NextPage = () => {
                 </p>
                 <p style={{ marginBottom: 6 }}>
                   View on{' '}
-                  <a href={`https://rinkeby.etherscan.io/tx/${mintData?.hash}`}>
-                    Etherscan
+                  <a href={`https://amoy.polygonscan.com/tx/${mintData?.hash}`}>
+                    Polygonscan
                   </a>
                 </p>
                 <p>
                   View on{' '}
                   <a
-                    href={`https://testnets.opensea.io/assets/rinkeby/${mintData?.to}/1`}
+                    href={`https://testnets.opensea.io/assets/amoy/${mintData?.to}/1`}
                   >
                     Opensea
                   </a>
